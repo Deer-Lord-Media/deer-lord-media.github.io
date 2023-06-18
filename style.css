@@ -1,3 +1,7 @@
+body {
+    background-color: #222222;
+}
+
 #main {
     display: block;
     margin-left: auto;
@@ -5,13 +9,71 @@
     width: 800px;
     height: auto;
     text-align: center;
-    border: 3px solid black;
 }
 
 #header {
+    /* display: block;
+    width: 100%;
+    text-align: center; */
+    height: 200px;
+}
+
+#navbar {
+    /* display: block;
+    width: 100%;
+    text-align: center; */
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #EEEEEE;
+}
+
+#logo
+{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+}
+
+#banner
+{
+    width: 600px;
+    height: 200px;
+    margin: 0px;
+}
+
+#navbar a
+{
+    text-decoration: none;
+}
+
+#navbar a:link
+{
+    color: #cc3946;
+}
+
+#navbar a:visited
+{
+    color: #DFB41C;
+}
+
+#content {
+    /* display: block;
+    width: 100%;
+    text-align: center; */
+    height: 800px;
+}
+
+.horizontal-center {
     display: block;
     width: 100%;
-    height: 100px;
     text-align: center;
-    border: 3px solid green;
+}
+
+.icon {
+    height: 26px;
+    width: 26px;
 }
