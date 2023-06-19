@@ -72,6 +72,9 @@ body {
 #page {
     width: 100%;
     height: auto;
+    text-align: center;
+    font-size: 20px;
+    color: white;
 }
 
 .horizontal-center {
