@@ -4,6 +4,16 @@
         <title>
             Deer Lord Media
         </title>
+        <script>
+            function loadPage(name) {
+                var element = document.getElementById("content");
+                var filename = `${name}.html`;
+                element.setAttribute("src", filename);
+            }
+            function mailTo() {
+
+            }
+        </script>
     </head>
     <body>
         <div id="main">
@@ -12,16 +22,14 @@
                 <img src="./images/banner.png" id="banner" />
             </div>
             <div id="navbar" class="horizontal-center">
-                <a href="./index.html">HOME</a> ||
-                <a href="./upcoming.html">UPCOMING</a> ||
-                <a href="./releases.html">RELEASES</a> ||
-                <a href="./about.html">ABOUT</a> ||
-                <a href="mailto:william@deerlord.media">MAIL</a>
+                <button onclick="loadPage('home')">HOME</button> ||
+                <button onclick="loadPage('upcoming')">UPCOMING</button> ||
+                <button onclick="loadPage('releases')">RELEASES</button> ||
+                <button onclick="loadPage('about')">ABOUT</button> ||
+                <button onclick="mailTo()">CONTACT</button>
                 <!-- <a href=""><img src="./svg/steam.svg" alt="STEAM" class="icon" /></a> -->
             </div>
-            <div id="content" class="horizontal-center">
-
-            </div>
+            <iframe id="content" src=""></iframe>
         </div>
     </body>
 </html>

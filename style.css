@@ -12,20 +12,14 @@ body {
 }
 
 #header {
-    /* display: block;
-    width: 100%;
-    text-align: center; */
     height: 200px;
 }
 
 #navbar {
-    /* display: block;
-    width: 100%;
-    text-align: center; */
     height: 50px;
     line-height: 50px;
     vertical-align: middle;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bolder;
     color: #EEEEEE;
 }
@@ -45,6 +39,15 @@ body {
     margin: 0px;
 }
 
+#navbar button
+{
+    color: #cc3946;
+    font-size: 20px;
+    background: none;
+    padding: 0;
+    border: none;
+}
+
 #navbar a
 {
     text-decoration: none;
@@ -61,10 +64,14 @@ body {
 }
 
 #content {
-    /* display: block;
     width: 100%;
-    text-align: center; */
     height: 800px;
+    border: 0px;
+}
+
+#page {
+    width: 100%;
+    height: auto;
 }
 
 .horizontal-center {
